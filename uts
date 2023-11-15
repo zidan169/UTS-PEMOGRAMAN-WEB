@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form data seminar ta</title>
+
+</head>
+    <style>
+        .judul{
+          text-align: center ;
+
+        }
+
+
+    body{
+        background-color: pink;
+    }
+    fieldset{
+        border-color: red;
+    }
+
+    </style>
+<body>
+    <fieldset>
+        <legend><h3>form data seminar ta</h3></legend>
+        <form action="" method="post">
+    <table>
+        <tr>
+            <td>NIM</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>NAMA</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>prodi</td>
+            <td><select>
+                    <option>sistem operasi</option>
+                    <option>teknik informatika</option>
+                    <option>bisnis digital</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Tanggal seminar</td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td>jam seminar</td>
+            <td><input type ="text"></td>
+        </tr>
+        <tr>
+            <td>Judul ta</td>
+            <td><textarea></textarea></td>
+        </tr>
+        <tr>
+            <td>Seminar</td>
+            <td><select>
+                <option>GDSC</option>
+                <option>PTYHON</option>
+                <option>matkom</option>
+
+            </select>
+            </td>
+        </tr>
+        <tr>
+              <td>Pembimbing</td>
+                <td><select>
+                    <option>Sirojul munir S.SI,M.KOM</option>
+                    <option>Reza Maulana</option>
+                    <option>yahya zulkarnain</option>
+                    
+                </select>
+        </tr>
+        <tr>
+            <td>penguji 1</td>
+              <td><select>
+                  <option>Ahmad rio M.SI</option>
+                  
+              </select>
+      </tr>
+      <tr>
+        <td>penguji 1</td>
+          <td><select>
+              <option>Amalia Rahmah M.T</option>
+              
+          </select>
+  </tr>
+  <tr>
+    <td></td>
+    <td><input type="submit" value="update">
+        <input type="reset" value="hapus" >
+    </td>
+  </tr>
+        
+    </table>
+
+
+    </fieldset>
+    
+    
+
+
+</body>
+</html>
